@@ -1,0 +1,22 @@
+:root {
+    --main-color: #f12a43;
+    --secondary-color: #222;
+    --primary-color: #969696;
+    --white-color: #fff;
+    --black-color: #000;
+    --bg-body: #f7f7f7;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-body);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+

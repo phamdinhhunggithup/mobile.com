@@ -1,0 +1,177 @@
+
+/* khung */
+#wp-content .content .banner {
+    position: relative;
+}
+#wp-content .content .banner .list-slider .slider-item .thumb-img{
+    display: block;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+/* anh */
+#wp-content .content .banner .list-slider .slider-item .thumb-img img {
+    width: 100%;
+    height: 100%;
+}
+#wp-content .content .banner .slider-control ul.list-dot {
+    display: flex;
+}
+#wp-content .content .banner .slider-control ul.list-dot  li {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+#wp-content .content .banner .slider-control ul.list-dot  li.active {
+    background-color: #fff;
+}
+#wp-content .content .banner .slider-control {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+
+.section-detail {
+    background-color: #fff;
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+.section-detail .list-detail {
+    display: flex;
+    padding: 20px 0;
+}
+.section-detail .list-detail .detail-item {
+    flex-basis: 20%;
+    border-right: 1px solid #d0d0d0;
+    padding: 0 10px;
+    text-align: center;
+}
+.section-detail .list-detail .detail-item:last-child {
+    border-right:  none;
+}
+.section-detail .list-detail .detail-item .thumb-img {
+    display: block;
+    width: 75px;
+    height: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section-detail .list-detail .detail-item .title {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+.section-detail .list-detail .detail-item .sub-title {
+    font-size: 12px;
+    color: #a2a2a2;
+}
+
+.section-products {
+    margin-bottom: 30px;
+}
+.section-products .wp-products-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.section-products .wp-products-title h3.name {
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.section-products .wp-products-title .control {
+    display: flex;
+}
+
+.section-products .wp-products-title .control span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #d5d5d5;
+    text-align: center;
+    line-height: 20px;
+    color: #8e8888;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.section-products .wp-products-title .control span:hover {
+    background-color: #c0bdbd;
+}
+
+.section-products .wp-products-content .list-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-products .wp-products-content .list-products .product-item {
+    flex-basis: 24.3%;
+    background-color: #fff;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.section-products .wp-products-content .list-products .product-item span.thumb-img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+}
+.section-products .wp-products-content .list-products .product-item span.thumb-img img {
+    width: 100%;
+    height: 100%;
+}
+.section-products .wp-products-content .list-products .product-item .product-intro {
+padding: 8px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-products .wp-products-content .list-products .product-item .name-product a{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 5px;
+}
+.section-products .wp-products-content .list-products .product-item .price .price-new{
+    color: #f54e4e;
+    font-weight: bold;
+}
+.section-products .wp-products-content .list-products .product-item .price .price-old {
+    text-decoration: line-through;
+    color: #c9c9c9;
+}
+
+.section-products .wp-products-content .list-products .product-item .product-cart {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.section-products .wp-products-content .list-products .product-item .product-cart a.add-cart {
+    display: block;
+    border: 1px solid #8a8181;
+    padding: 6px 6px;
+    color: #8a8181;
+    font-weight: 300;
+    font-size: 13px;
+}
+.section-products .wp-products-content .list-products .product-item .product-cart a.add-cart:hover {
+    color: #fff;
+    background-color:#353232;
+    border-color: #353232;
+}
+.section-products .wp-products-content .list-products .product-item .product-cart a.pay-now {
+    color: #f54e4e;
+    border: 1px solid #f54e4e;
+    padding: 6px 8px;
+    font-weight: 300;
+    font-size: 13px;
+}
+.section-products .wp-products-content .list-products .product-item .product-cart a.pay-now:hover {
+    color: #fff;
+    background-color: #f54e4e;
+    border-color: #f54e4e;
+}
+
+

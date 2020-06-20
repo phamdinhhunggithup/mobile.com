@@ -1,0 +1,323 @@
+#wp-content {
+    margin-top: 25px;
+}
+#wp-content .container {
+    display: flex;
+    justify-content: space-between;
+}
+#wp-content .sidebar {
+    flex-basis: 24%;
+} 
+#wp-content .content {
+    flex-basis: 74%;
+}
+/* ==================================== */
+/* ============== HEADER ============== */
+/* ==================================== */
+
+/* -- top header -- */
+#header .header-top {
+    background-color: #d9263c;
+}
+#header .header-top .container {
+    display: flex;
+    justify-content: space-between;
+    /* canh deu trai phai */
+    align-items: center;
+    /* canh giua tren duoi */
+}
+#header .header-top .header-top-right ul.list-menu {
+    display: flex;
+}
+
+/* -- bottom header -- */
+#header .header-bottom {
+    background-color: #f12a43;
+    padding: 10px 0;
+}
+
+#header .header-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .header-bottom .container .header-bottom-right .wp-action {
+    display: flex;
+}
+
+#header .header-bottom .header-bottom-middle .form-group .form-control {
+    width: 350px;
+    padding: 6px 20px;
+}
+
+#header .header-bottom .container .header-bottom-middle .wp-search .form-group .btn-search{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 7px 15px;
+}
+
+#header .header-bottom .container .header-bottom-right .wp-action .advisory-wp {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #a09494;
+    padding-right: 30px;
+}
+
+#header .header-bottom .container .header-bottom-right .wp-action .advisory-wp .icon {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 40px;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+
+#header .header-bottom .container .header-bottom-right .wp-action .cart-wp {
+    padding-left: 30px;
+}
+
+#header .header-bottom .container .header-bottom-right .wp-action .cart-wp .logo-cart {
+    position: relative;
+}
+#header .header-bottom .container .header-bottom-right .wp-action .cart-wp .logo-cart .cart-icon {
+    display: block;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    line-height: 40px;
+}
+#header .header-bottom .container .header-bottom-right .wp-action .cart-wp .logo-cart .cart-num {
+    position: absolute;
+    color: #fff;
+    top: -8px;
+    right: -8px;
+}
+
+
+/* ===================================== */
+/* ============== SIDEBAR ============== */
+/* ===================================== */
+
+.sidebar .section-sb-item {
+    margin-bottom: 25px;
+}
+.sidebar .section-sb-item.item-top,
+.sidebar .section-sb-item.item-mid{
+    background-color: #fff;
+}
+.sidebar .section-sb-item .section-head {
+    background-color: #969696;
+    text-align: center;
+}
+.sidebar .section-sb-item .section-head h3.title {
+    color: #fff;
+    padding: 15px;
+    font-weight: 300;
+    font-size: 19px;
+}
+.sidebar .section-sb-item ul li {
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+.sidebar .section-sb-item ul li:last-child {
+    border-bottom: none;
+}
+.sidebar .section-sb-item ul li a {
+    color: #777;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar .section-sb-item ul li ul.sub-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 230px;
+    top: 0;
+    left: 100%;
+    z-index: 1;
+    border-left: 2px solid #eee;
+    display: none;
+}
+.sidebar .section-sb-item ul li:hover > ul.sub-menu {
+    display: block;
+}
+.sidebar .section-sb-item ul li:hover > a {
+    background-color: #f0f0f0;
+}
+.sidebar .section-sb-item.selling ul.list-selling {
+    padding: 0 10px;
+}
+.sidebar .section-sb-item.selling ul.list-selling li {
+    display: flex;
+    padding: 10px 0;
+}
+.sidebar .section-sb-item.selling ul.list-selling li span.thumb-img {
+    display: block;
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #bbbbbb;
+}
+.sidebar .section-sb-item.selling ul.list-selling li span.thumb-img img {
+    width: 100%;
+    height: 100%;
+}
+.sidebar .section-sb-item.selling ul.list-selling li .product-name a{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #292929;
+    margin-bottom: 5px;
+    font-weight: 300;
+    padding: 0;
+}
+.sidebar .section-sb-item.selling ul.list-selling li .product-price .price-new {
+    display: inline-block;
+    color: #ff0c2a;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.sidebar .section-sb-item.selling ul.list-selling li .product-price .price-old{
+    color: #999;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+.sidebar .section-sb-item.selling ul.list-selling li .selling-img a {
+    padding: 10px;
+}
+.sidebar .section-sb-item.selling ul.list-selling li .selling-intro {
+    padding-top: 10px;
+}
+.sidebar .section-sb-item.selling ul.list-selling li a.pay-now {
+    padding: 8px 0;
+    color: #585858;
+    font-size: 14px;
+}
+
+.sidebar .section-sb-item.ads span.thumb-img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.sidebar .section-sb-item.ads span.thumb-img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ==================================== */
+/* ============== FOOTER ============== */
+/* ==================================== */
+/* footer */
+#footer .section-top {
+    background-color: #fff;
+    padding: 50px 0;
+}
+#footer .wp-intro-footer {
+    display: flex;
+    justify-content: space-between;
+}
+#footer .wp-intro-footer .intro-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+#footer .wp-intro-footer .intro-item.ads {
+    padding-right: 30px;
+}
+#footer .wp-intro-footer .intro-item .logo-title {
+    font-size: 25px;
+    color: #e80000;
+    margin-bottom: 20px;
+}
+#footer .wp-intro-footer .intro-item .title {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#footer .wp-intro-footer .intro-item .desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #6d6d6d;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+#footer .wp-intro-footer .intro-item  ul.list-intro li a{
+    color: #545454;
+    font-size: 13px;
+    padding: 9px 0;
+}
+
+#footer .wp-intro-footer .intro-item.policy  ul.list-intro li a{
+    position: relative;
+    padding-left: 20px;
+}
+#footer .wp-intro-footer .intro-item.policy  ul.list-intro li a::before{
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #d20000;
+    top: 15px;
+    left: 0;
+    margin-right: 20px;
+}
+
+#footer .wp-intro-footer .intro-item.newfeed .form-group {
+    padding: 5px 0;
+}
+#footer .wp-intro-footer .intro-item.newfeed .form-control {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #cdcdcd;
+    letter-spacing: 1px;
+}
+#footer .wp-intro-footer .intro-item.newfeed .form-control::placeholder {
+    color: #cdcdcd;
+    font-size: 12px;
+}
+#footer .wp-intro-footer .intro-item.newfeed button.btn {
+    width: 100%;
+    display: block;
+    padding: 9px 0;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #e80000;
+} 
+.copy-right {
+    background-color: #e80000;
+} 
+.copy-right p {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/* =================================== */
+/* ============== GLOBAL ============== */
+/* =================================== */
+#header .header-top .header-top-left a.payment-link,
+#header .header-top .header-top-right ul.list-menu li a {
+    color: var(--white-color);
+    padding: 15px 10px;
+    font-size: .9rem;
+}
+#header .header-bottom .container .header-bottom-right .advisory-wp .text .title,
+#header .header-bottom .container .header-bottom-right .advisory-wp .text .phone-number {
+    display: block;
+    color: #fff;
+}
